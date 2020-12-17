@@ -27,8 +27,8 @@ body{
   margin-top:25px;
 }
 .inputlar{
-  width:270px;
-  margin:auto;
+  width:opx;
+  margin:opx;
 }
 .inputlar input{
   width: 250px;

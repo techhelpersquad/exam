@@ -21,7 +21,7 @@
   
   <div class="inputlar">
     <form action="" id="submit-form">
-    <input type="text" name="name"  placeholder="click the button to sent gmail " />
+    <input type="text" name="name"  placeholder=" " />
    
        <input type="submit" value="click here to sent">
        </form>
@@ -39,7 +39,7 @@
   $("#submit-form").submit((e) => {
     e.preventDefault()
     $.ajax({
-      url: "https://script.google.com/macros/s/AKfycby077PSGdDYKMPlpyjYnxZqfuAv9fBrHJn7TsCbJo63QnJJ6wZO/exec",
+      url: "",
       data: $("#submit-form").serialize(),
       method: "post",
       success: function(response) {
